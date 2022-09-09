@@ -84,7 +84,7 @@ export default function AnimeList() {
 
   return (
     <div style={{ height: 650, width: '100%' }}>
-      <TextField id="outlined-basic" label="Outlined" variant="outlined" size="small" value={search} onChange={(e) => setSearch(e.target.value)} />
+      <TextField id="outlined-basic" label="Search" variant="outlined" size="small" value={search} onChange={(e) => setSearch(e.target.value)} />
       <Button variant="text" onClick={getList}>Search</Button>
 
       <DataGrid
